@@ -54,19 +54,5 @@
             "budgeting",
             "investing"
         ]
-    },
-    {
-        "id": 5,
-        "cover": "https://i.ibb.co/bBw3qWn/1.jpg",
-        "title": "Travel Diaries",
-        "author_img": "https://i.ibb.co/d0cTDmP/boy1.png",
-        "author": "Mike Brown",
-        "posted_date": "2023-10-21",
-        "reading_time": 20,
-        "hashtags": [
-            "travel",
-            "adventure",
-            "explore"
-        ]
     }
 ]
