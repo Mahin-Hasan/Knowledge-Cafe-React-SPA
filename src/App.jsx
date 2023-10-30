@@ -15,16 +15,25 @@ function App() {
     setBookmarks(newBookmarks);
   }
 
-  const handleMarkAsRead = time =>{
-    console.log('marking as read',time);
+  const handleMarkAsRead = time => {
+    // console.log('marking as read',time);
+    const newReadingTime = readingTime + time;
+    setReadingTime(newReadingTime);
+    // setReadingTime(readingTime + time); //as this is not an array it does not store reference ||short cut
   }
 
   return (
     <>
       <Header></Header>
       <div className='md:flex max-w-7xl mx-auto'>
-        <Blogs handleAddToBookmark={handleAddToBookmark} handleMarkAsRead={handleMarkAsRead}></Blogs>
-        <Bookmarks bookmarks={bookmarks}></Bookmarks>
+        <Blogs
+          handleAddToBookmark={handleAddToBookmark}
+          handleMarkAsRead={handleMarkAsRead}
+        ></Blogs>
+        <Bookmarks
+          bookmarks={bookmarks}
+          readingTime={readingTime}
+        ></Bookmarks>
       </div>
     </>
   )
