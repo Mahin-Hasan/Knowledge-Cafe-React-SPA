@@ -1,0 +1,72 @@
+[
+    {
+        "id": 1,
+        "cover": "https://i.ibb.co/bBw3qWn/1.jpg",
+        "title": "Exploring the Universe",
+        "author_img": "https://i.ibb.co/R36BBLL/boy2.jpg",
+        "author": "John Doe",
+        "posted_date": "2023-10-25",
+        "reading_time": 12,
+        "hashtags": [
+            "space",
+            "exploration",
+            "science"
+        ]
+    },
+    {
+        "id": 2,
+        "cover": "https://i.ibb.co/pxVmLrV/2.png",
+        "title": "The Art of Cooking",
+        "author_img": "https://i.ibb.co/SX5MzPP/girl1.jpg",
+        "author": "Jane Smith",
+        "posted_date": "2023-10-24",
+        "reading_time": 8,
+        "hashtags": [
+            "food",
+            "recipes",
+            "cooking"
+        ]
+    },
+    {
+        "id": 3,
+        "cover": "https://i.ibb.co/s1wDt4c/3.png",
+        "title": "Fitness and You",
+        "author_img": "https://i.ibb.co/v1Jr38N/girl2.jpg",
+        "author": "Alex Johnson",
+        "posted_date": "2023-10-23",
+        "reading_time": 10,
+        "hashtags": [
+            "fitness",
+            "health",
+            "exercise"
+        ]
+    },
+    {
+        "id": 4,
+        "cover": "https://i.ibb.co/ZVJyWwb/4.jpg",
+        "title": "Financial Planning 101",
+        "author_img": "https://i.ibb.co/bdKZhpd/profile.png",
+        "author": "Emily Rogers",
+        "posted_date": "2023-10-22",
+        "reading_time": 15,
+        "hashtags": [
+            "finance",
+            "budgeting",
+            "investing"
+        ]
+    },
+    {
+        "id": 5,
+        "cover": "https://i.ibb.co/bBw3qWn/1.jpg",
+        "title": "Travel Diaries",
+        "author_img": "https://i.ibb.co/d0cTDmP/boy1.png",
+        "author": "Mike Brown",
+        "posted_date": "2023-10-21",
+        "reading_time": 20,
+        "hashtags": [
+            "travel",
+            "adventure",
+            "explore"
+        ]
+    }
+]
